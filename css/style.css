@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+textarea.form-control, pre {
+	max-width: 100%;
+	background-color: #3c4048;
+	color: inherit;
+	font-family: 'Inconsolata', monospace;
+	font-size: 18px;
+}
+.btn {
+	margin: 10px 0 0 10px;
+}
+.row {
+	margin-bottom: 10px;
+}
+.navbar-fixed-top {
+	margin-top: 15px;
+}
+.jumbotron {
+	margin-bottom: 0;
+}
+img {
+	margin-top: 4px;
+	height: 44px;
+}

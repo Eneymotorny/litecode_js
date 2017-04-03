@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>LiteCode {JS}</title>
+
+	<link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-themes/slate.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="page-header">
+		<h1 class="container">LiteCode {<b>JS</b>}</h1>
+		<div class="container navbar-fixed-top">
+			<ul class="nav navbar-nav navbar-right">
+				<li><button type="button" class="btn btn-warning hidden" id="runAllBtn" data-toggle="tooltip" data-placement="bottom" data-original-title="Выполнить весь код на странице">
+					<span class="glyphicon glyphicon-list" aria-hidden="true"></span> Выполнить всё
+				</button></li>
+				<li><button type="button" class="btn btn-success" id="addCode" data-toggle="tooltip" data-placement="bottom" data-original-title="Добавить новое поле для ввода кода">
+					<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span> Добавить поле
+				</button></li>
+			</ul>
+		</div>
+	</header>
+
+	<div class="container" id="codeContainer"></div>
+
+	<main class="jumbotron">
+		<h4 class="container">#TEST</h4>
+		<div class="container" id="test"></div>
+	</main>
+
+	<script src="lib/jquery/dist/jquery.min.js"></script>
+	<script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="js/insertAtCaretPlugin.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
