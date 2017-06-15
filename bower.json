@@ -1,7 +1,7 @@
 {
-  "name": "todo",
+  "name": "libs",
   "authors": [
-    "Natalie <filonitta@gmail.com>"
+    "Olexandr <eneymotorny@gmail.com>"
   ],
   "description": "",
   "main": "index.html",
@@ -13,10 +13,12 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "lib"
   ],
   "dependencies": {
     "jquery": "^3.1.1",
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "wow": "WOW#^1.1.2"
   }
 }

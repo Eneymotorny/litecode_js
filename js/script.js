@@ -9,7 +9,8 @@ $(function () {
 		addCodeArea()
 	});
 
-	addCodeArea("var target = document.getElementById('test'),\n" +
+	addCodeArea
+		("var target = document.getElementById('test'),\n" +
 		"    element = document.createElement('div');\n" +
 		"element.innerHTML = 'Hello, world!';\n" +
 		"target.append(element);");
@@ -91,6 +92,8 @@ $(function () {
 			.appendTo($codePanelBody);
 
 		$('html, body').animate({ scrollTop: ($codePanel).offset().top }, 500);
+
+		animateWow()
 	}
 
 	$(function () {
